@@ -12,3 +12,7 @@
     src: https://github.com/antarctica/ansible-php
     name: php
     version: v0.2.5
+-
+    src: https://github.com/antarctica/ansible-composer
+    name: composer
+    version: v0.1.5

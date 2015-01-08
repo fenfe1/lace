@@ -43,8 +43,10 @@ $ cd lace
 $ vagrant up
 
 $ ssh calcifer-lace-dev-node1
-$ cd /app/src
+$ cd /app
+$ composer install
 
+$ cd /app/src
 $ php lace.php
 
 $ logout
