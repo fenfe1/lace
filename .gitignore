@@ -1,0 +1,4 @@
+.vagrant
+provisioning/roles/bootstrap
+provisioning/roles/core
+provisioning/roles/php

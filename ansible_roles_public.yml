@@ -1,0 +1,14 @@
+---
+
+-
+    src: https://github.com/antarctica/ansible-bootstrap
+    name: bootstrap
+    version: v0.1.4
+-
+    src: https://github.com/antarctica/ansible-core-public
+    name: core
+    version: v0.5.2
+-
+    src: https://github.com/antarctica/ansible-php
+    name: php
+    version: v0.2.5
