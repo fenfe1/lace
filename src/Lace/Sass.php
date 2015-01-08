@@ -2,10 +2,10 @@
 
 namespace Lace;
 
-class Base {
+trait Sass {
 
     public function getName()
     {
-        return 'Danielle';
+        return 'Rencia';
     }
 }

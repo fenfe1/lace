@@ -2,11 +2,10 @@
 
 namespace Lace;
 
-
-trait Smirk {
+class Human {
 
     public function getName()
     {
-        return 'Rencia';
+        return 'Person';
     }
 }

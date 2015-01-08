@@ -2,9 +2,9 @@
 
 require '../vendor/autoload.php';  // Load Composer
 
-use Lace\Foundation;
+use Lace\Person;
 
-$person = new Foundation();
+$person = new Person();
 
 echo "\n";
 echo $person->getName() . " \n";  // Should say Rencia

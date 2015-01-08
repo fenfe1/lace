@@ -3,7 +3,7 @@
 namespace Lace;
 
 
-interface Platform {
+interface Anatomy {
 
     function getName();
 }
