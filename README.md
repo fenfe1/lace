@@ -15,8 +15,8 @@ You will need to the following local software depending on the environment you w
 
 #### Development (local)
 
-  * [VMware Fusion](http://vmware.com/fusion)
-  * [Vagrant](http://vagrantup.com) `brew cask install vmware-fusion vagrant`
+  * [VMware Fusion](http://vmware.com/fusion) `brew cask install vmware-fusion`
+  * [Vagrant](http://vagrantup.com) `brew cask install vagrant`
   * [Host manager](https://github.com/smdahlen/vagrant-hostmanager) and [Vagrant VMware](http://www.vagrantup.com/vmware) plugins `vagrant plugin install vagrant-hostmanager && vagrant plugin install vagrant-vmware-fusion`
   * You have a private key `id_rsa` and public key `id_rsa.pub` in `~/.ssh/`
   * You have an entry like [1] in your `~/.ssh/config`
@@ -51,5 +51,3 @@ $ php lace.php
 
 $ logout
 ```
-
-

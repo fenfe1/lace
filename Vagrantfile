@@ -26,10 +26,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       config.vm.network "private_network", type: "dhcp"  # Define Networking
 
     # Automatic hostname registration
-    config.hostmanager.enabled = true
-    config.hostmanager.manage_host = true
-    config.hostmanager.ignore_private_ip = false
-    config.hostmanager.include_offline = true
+      config.hostmanager.enabled = true
+      config.hostmanager.manage_host = true
+      config.hostmanager.ignore_private_ip = false
+      config.hostmanager.include_offline = true
 
   # VMs
   config.vm.define hostname_base + "-" + hostname_project + "-" + hostname_environment + "-" + "node1" do |vm1|
